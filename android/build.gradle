@@ -1,10 +1,6 @@
 group 'com.amolg.flutterbarcodescanner'
 version '1.0-SNAPSHOT'
 
-android {
-    namespace 'com.android-1.flutter_barcode_scanner'  // Choisis un namespace unique
-    ...
-}
 
 buildscript {
     repositories {
@@ -28,6 +24,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
+    namespace 'com.android-1.flutter_barcode_scanner'  // Choisis un namespace unique
 
     defaultConfig {
         minSdkVersion 16
