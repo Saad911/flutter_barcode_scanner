@@ -1,6 +1,11 @@
 group 'com.amolg.flutterbarcodescanner'
 version '1.0-SNAPSHOT'
 
+android {
+    namespace 'com.android-1.flutter_barcode_scanner'  // Choisis un namespace unique
+    ...
+}
+
 buildscript {
     repositories {
         google()
